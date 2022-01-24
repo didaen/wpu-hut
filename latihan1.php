@@ -7,6 +7,9 @@ $menu = json_decode($data, true);
 // untuk mempersingkat supaya tidak akan terjado pengulangan
 $menu["menu"] = $menu;
 
+// Sekarang penulisan untuk mengambil data 'Meat Lovers' menjadi lebih singkat
+echo $menu[0]["nama"];
+
 ?>
 
 <!doctype html>
