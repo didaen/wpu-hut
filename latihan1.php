@@ -2,7 +2,7 @@
 $data = file_get_contents('data/pizza.json');
 $menu = json_decode($data, true);
 
-var_dump($menu);
+var_dump($menu["menu"][0]["nama"]);
 ?>
 
 <!doctype html>
