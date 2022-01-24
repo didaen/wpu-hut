@@ -2,7 +2,11 @@
 $data = file_get_contents('data/pizza.json');
 $menu = json_decode($data, true);
 
-var_dump($menu["menu"][0]["nama"]);
+// var_dump($menu["menu"][0]["nama"]);
+
+// untuk mempersingkat supaya tidak akan terjado pengulangan
+$menu["menu"] = $menu;
+
 ?>
 
 <!doctype html>
