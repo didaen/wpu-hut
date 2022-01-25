@@ -38,7 +38,7 @@ echo $menu[0]["nama"];
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">All Menu</a>
                 </div>
             </div>
         </div>
