@@ -56,7 +56,7 @@ echo $menu[0]["nama"];
         <div class="row">
             <?php foreach ($menu as $row) : ?>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card mb-3">
                         <img src="img/menu/american-favourite.jpg" class="card-img-top" alt="American Favourite picture">
                         <div class="card-body">
                             <h5 class="card-title">American Favourite</h5>
