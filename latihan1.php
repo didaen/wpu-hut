@@ -54,17 +54,19 @@ echo $menu[0]["nama"];
         </div>
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/menu/american-favourite.jpg" class="card-img-top" alt="American Favourite picture">
-                    <div class="card-body">
-                        <h5 class="card-title">American Favourite</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <h5 class="card-title">Rp. 65.000</h5>
-                        <a href="#" class="btn btn-primary">Tambahkan</a>
+            <?php foreach ($menu as $row) : ?>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/menu/american-favourite.jpg" class="card-img-top" alt="American Favourite picture">
+                        <div class="card-body">
+                            <h5 class="card-title">American Favourite</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Rp. 65.000</h5>
+                            <a href="#" class="btn btn-primary">Tambahkan</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php endforeach; ?>
         </div>
 
     </div>
