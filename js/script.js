@@ -2,4 +2,9 @@
 $.getJSON('data/pizza.json', function (data) {
     let menu = data.menu;
 
+    // Pengulangan pada jQuery menggunakan $.each
+    $.each(menu, function (i, data) {
+        // i pada parameter adalah index-nya sedangkan data pada parameter adalah data-nya.
+        console.log(i);
+    })
 });
