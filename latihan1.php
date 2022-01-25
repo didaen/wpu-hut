@@ -58,11 +58,11 @@ echo $menu[0]["nama"];
             <?php foreach ($menu as $row) : ?>
                 <div class="col-md-4">
                     <div class="card mb-3">
-                        <img src="img/menu/<?= $menu[$i]["gambar"]; ?>" class="card-img-top" alt="<?= $menu[$i]["nama"]; ?> picture">
+                        <img src="img/menu/<?= $row[$i]["gambar"]; ?>" class="card-img-top" alt="<?= $row[$i]["nama"]; ?> picture">
                         <div class="card-body">
-                            <h5 class="card-title"><?= $menu[$i]["nama"]; ?></h5>
-                            <p class="card-text"><?= $menu[$i]["deskripsi"]; ?></p>
-                            <h5 class="card-title"><?= $menu[$i]["harga"]; ?></h5>
+                            <h5 class="card-title"><?= $row[$i]["nama"]; ?></h5>
+                            <p class="card-text"><?= $row[$i]["deskripsi"]; ?></p>
+                            <h5 class="card-title"><?= $row[$i]["harga"]; ?></h5>
                             <a href="#" class="btn btn-primary">Tambahkan</a>
                         </div>
                     </div>
