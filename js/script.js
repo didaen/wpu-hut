@@ -21,4 +21,10 @@ $('.nav-link').on('click', function () {
 
     // Khusus yang diklik aja, akan punya class active
     $(this).addClass('active');
+
+    // Membuat sebuah variabel kategori untuk menyimpan isi atau tulisan yang ada pada elemen dengan class nav-link saat elemen diklik 
+    let kategori = $(this).html();
+
+    // Mencetak hasilnya di console
+    console.log(kategori);
 });
