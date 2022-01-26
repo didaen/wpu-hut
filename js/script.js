@@ -5,6 +5,9 @@ $.getJSON('data/pizza.json', function (data) {
     // Pengulangan pada jQuery menggunakan $.each
     $.each(menu, function (i, data) {
         // i pada parameter adalah index-nya sedangkan data pada parameter adalah data-nya.
-        console.log(data);
+
+        // jQuery tolong carikan elemen dengan id #daftar-menu kemudian append (tambahkan node baru di posisi paling bawah) code html berikut
+
+        $.('#daftar-menu').append('')
     })
 });
