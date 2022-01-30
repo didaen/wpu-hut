@@ -25,6 +25,6 @@ $('.nav-link').on('click', function () {
     // Membuat sebuah variabel kategori untuk menyimpan isi atau tulisan yang ada pada elemen dengan class nav-link saat elemen diklik 
     let kategori = $(this).html();
 
-    // Mencetak hasilnya di console
-    console.log(kategori);
+    // jQuery, tolong carikan saya element dengan tag h1 (Adanya cuma 1 jadi tidak usah dikasi [0] gak papa), kemudian ganti isi HTMLnya dengan isi dari variabel kategori.
+    $('h1').html(kategori);
 });
