@@ -38,7 +38,7 @@ $.getJSON('data/pizza.json', function (data) {
     $.each(menu, function (i, data) {
         // Jika data.kategori sama dengan isi dari variabel kategori, dipaksa untuk jadi lower case semua
         if (data.kategori == kategori.toLowerCase()) {
-
+            content += 
         }
     });
 });
