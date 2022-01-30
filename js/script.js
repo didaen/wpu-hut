@@ -31,8 +31,14 @@ $('.nav-link').on('click', function () {
 
 // UNTUK MENAMPILKAN MENU SESUAI KATEGORINYA KETIKA KITA MENGKLIK NAVBAR
 $.getJSON('data/pizza.json', function (data) {
-    // Jika data.kategori sama dengan isi dari variabel kategori, dipaksa untuk jadi lower case semua
-    if (data.kategori == kategori.toLowerCase()) {
+    let menu = data.menu;
+    let content = '';
 
-    }
+    // Looping data dulu
+    $.each(menu, function (i, data) {
+        // Jika data.kategori sama dengan isi dari variabel kategori, dipaksa untuk jadi lower case semua
+        if (data.kategori == kategori.toLowerCase()) {
+
+        }
+    });
 });
