@@ -1,3 +1,8 @@
+// Untuk mengatasi permasalahan 'All Menu', kita akan membuatnya menjadi function untuk menghindari terlalu banyak pengulangan
+function tampilkanSemuaMenu() {
+
+}
+
 // Sebenarnya jQuery punya method untuk Ajax, yaitu $.ajax. Tapi kalo khusus untuk JSON, bisa pake $.getJSON
 $.getJSON('data/pizza.json', function (data) {
     let menu = data.menu;
