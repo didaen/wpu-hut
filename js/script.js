@@ -15,7 +15,8 @@ function tampilkanSemuaMenu() {
     });
 }
 
-
+// Untuk menampilkan tampilan default awal, kita harus panggil menunya dulu.
+tampilkanSemuaMenu();
 
 // jQuery tolong carikan semua class dengan nama nav-link, kemudian ketika di klik jalankan function berikut.
 $('.nav-link').on('click', function () {
