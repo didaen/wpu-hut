@@ -32,10 +32,13 @@ $('.nav-link').on('click', function () {
 
     // jQuery, tolong carikan saya element dengan tag h1 (Adanya cuma 1 jadi tidak usah dikasi [0] gak papa), kemudian ganti isi HTMLnya dengan isi dari variabel kategori.
     $('h1').html(kategori);
+    console.log(kategori);
 
     // MEMBUAT ATURAN UNTUK ALL MENU KARENA MENUNYA JADI TIDAK MUNCUL KARENA PADA JSON-NYA DI KATEGORI TIDAK ADA ALL MENU
     if (kategori == 'All Menu') {
-
+        $('#daftar-menu').html('');
+        tampilkanSemuaMenu();
+        return;
     }
 
     // UNTUK MENAMPILKAN MENU SESUAI KATEGORINYA KETIKA KITA MENGKLIK NAVBAR
